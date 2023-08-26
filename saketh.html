@@ -1,0 +1,31 @@
+
+<html>
+<head>
+<title>login page</title>
+</head>
+<body bgcolor="dark blue">
+<form name="f1">
+<pre>
+Username : <input type="text" placeholder="Username"   name="id1">
+
+Password : <input type="password" placeholder="Password" name="id3">
+
+         <input type="submit" value="submit"  onclick="checklogin()"/>
+</form>
+<script>
+function  checklogin()
+{
+var username=document.f1.id1.value;
+var password=document.f1.id3.value;
+if(username==="Drr" && password==="1234")
+{
+alert("login successful");
+}
+else
+{
+alert("invalid username");
+}
+}
+</script>
+</body>
+</html>
